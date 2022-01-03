@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.logo {
+  display: block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: white;
+}
+
+.ham {
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ham span {
+  background-color: black;
+  display: block;
+  height: 3px;
+  width: 28px;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.enlaces-menu {
+  display: flex;
+  padding: 0;
+}
+
+.enlaces-menu li {
+  padding: 0 40px;
+  list-style-type: none;
+  transition: 0.3s;
+}
+
+.enlaces-menu li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .ham {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    transition: 0.2s 0.1s;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .enlaces-menu {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 92vh;
+    margin: 0;
+    padding: 0;
+    display: none;
+    opacity: 0;
+    transition: opacity 5s ease-out;
+    width: 100%;
+  }
+
+  .enlaces-menu li {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@keyframes muestraMenu {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.enlaces-menu.activado {
+  display: flex;
+  animation: muestraMenu 350ms ease-in-out both;
+}
+
+.br-1.animado {
+  transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.br-2.animado {
+  opacity: 0;
+}
+
+.br-3.animado {
+  transform: rotate(45deg) translate(-10px, -8px);
+}

@@ -1,0 +1,268 @@
+body {
+  text-decoration: none;
+  padding: 0 0;
+  margin: 0 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+  overflow: scroll;
+}
+
+h5 {
+  color: orange;
+  font-weight: bolder;
+  align-items: center;
+}
+
+h1.homepage {
+  font-weight: bolder;
+  justify-content: left;
+  font-size: 4rem;
+  padding: 0 10% 0 10%;
+  color: orangered;
+}
+
+p.homepage {
+  font-weight: 600;
+  justify-content: left;
+  font-size: 2rem;
+  padding: 10% 10% 0 10%;
+  color: orangered;
+}
+
+footer {
+  background-color: whitesmoke;
+  justify-items: center;
+  padding: 5%;
+}
+
+section#partners {
+  background-color: rgb(56, 56, 37);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+#landpage {
+  height: 90%;
+}
+
+#cardabout {
+  background-color: white;
+  margin: 5% 35%;
+  padding: 0;
+  border: solid 1px black;
+}
+
+strong.text-center {
+  margin-bottom: 20px;
+}
+
+#winnerlogo {
+  border: solid 1px black;
+  padding: 5% 8%;
+  margin-bottom: 2em;
+}
+
+.abouthr {
+  width: 100%;
+  color: gray;
+  margin-bottom: 35px;
+}
+
+.material-icons {
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.color-background-past {
+  background-color: rgba(141, 49, 39, 0.7);
+  height: 315px;
+  width: 474px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pastSubmits {
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.partnerLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5%;
+}
+
+.card-content {
+  overflow: visible;
+}
+
+hr {
+  display: block;
+  height: 5px;
+  width: 50px;
+  justify-content: center;
+}
+
+div.card.m-2 {
+  background-color: rgba(126, 124, 124, 0.724);
+}
+
+.card.m-2:hover {
+  border: solid 2px white;
+}
+
+.btn1 {
+  color: white;
+  background-color: orangered;
+  justify-items: center;
+  padding: 8%;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.programfooter {
+  display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  display: none;
+  right: 25px;
+  height: 40px;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: orangered;
+}
+
+.logo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #myLinks {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    text-transform: none;
+    background-color: #ddd;
+    color: black;
+  }
+
+  .bars {
+    display: none;
+  }
+
+  .topnav a.icon {
+    content: none;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    width: 100vw;
+  }
+
+  #cardlandpage {
+    display: inline-block;
+    justify-content: left;
+    box-sizing: content-box;
+    width: 40vw !important;
+  }
+
+  .topnav a {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none !important;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  #speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 3;
+    background-color: white;
+    outline: none;
+    border: solid 1px transparent;
+  }
+
+  .cardisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: auto;
+  }
+
+  .btn1 {
+    display: none;
+  }
+
+  .programfooter {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+
+  .pastSubmits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  section#partners {
+    background-color: rgb(56, 56, 37);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+}

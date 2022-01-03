@@ -1,36 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>"
+<html lang="En">
+
+  <head>
     <meta charset="UTF-8">
-    <meta name="description" content="A simple HTML document that can be parsed to create a conference WEB application.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Conference, Web Application">
-    <meta name="author" content="Cindy Shin">
+    <meta name="author" content="Sergio Valadez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference Web Application</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    <title>Agro-industry 2021</title>
+    <link rel="icon" href="/images/logo3.png">
   </head>
-  <body>
-    <header class="container-fluid">
-      <img src="img/logo.png" alt="logo">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <ul class="container-fluid row">
-          <li class="col-sm-4"><a href="index.html">Home</a></li>
-          <li class="col-sm-4"><a href="about.html">About</a></li>
-          <li class="col-sm-4"><a href="#program">Program</a></li>
-          <li class="col-sm-4"><a href="#">Join</a></li>
-          <li class="col-sm-4"><a href="#sponsors">Sponsors</a></li>
+
+<body>
+  <header>
+    <nav>
+        <a href="index.html"><img class="logo" src="/images/logo.svg" alt="logo"></a>
+
+        <ul class="enlaces-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#program">Programs</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
         </ul>
-      </nav>
-    </header>
-    <main class="container-fluid">
-      <div class="row">
+
+        <button class="ham" type="button">   
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+        </button>                       
+    </nav>
+  </header>
+
+  <section>
+    <h1 class="homepage text-center">THE NEW HEMP INDUSTRY:<br> GLOBAL SUBMMIT 2021</h1>
+    <div class="card">
+      <div class="card-body text-center" id="cardabout">
+        <h4>A place where world's industry leaders shows their newest product and innovations.<br>
+        With forums about the legal status of the plant, <br>Expotitions about processing machines,
+        and world recogniced experts.</h4>
       </div>
-    </main>
-    <footer>
-      <p>&copy; Cindy Shin</p>
-    </footer>
-    <script src="js/index.js">
-    </script>
-  </body>
+      <strong class="text-center">Plase contac us per email for any further question regarding the event</strong>
+      <hr class="abouthr">
+    </div>
+  </section>
+  <section class="container-fluid text-center">
+    <h3>Hemp Industries Global Submmit 2021 logo</h3>
+    <p class="text-center p-1">The Hemp Ind. Global commit 2021 was decided through the ogo competition,
+      from 8th june to 7th July. After online public voting and a selection
+      commetee's judging process. The logo made by Sergio Valadez won the price.
+      After consult it with Mr. VALERA. with mister Valadez we optimizad price winner logo.
+      for this year submmit. After consouling with Mr valadez, we optimized the price winning logo.
+    </p>
+    <img src="/images/logo2.png" alt="winnerlogo" id="winnerlogo" />
+    <hr class="abouthr">
+  </section>
+  <section class="container-fluid text-center">
+    <h3>See past Hemp Industry submmits</h3>
+    <p>Take a look at the las two Hemp Industries submmits in Tokio and Dubai</p>
+    <div class="grid-container pastSubmits row">
+      <div class="background-past1 col m-3">
+        <img src="/images/tokio.png" alt="tokio">
+      </div>
+      <div class="background-past2 col m-3">
+        <img src="/images/dubai.png" alt="dubai">
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid bg-black row">
+    <div class="col">
+      <img src="/images/logo2.png" alt="logoevento">
+    </div>
+    <div class="col">
+      <p class="text-light">Hemp Industries de México.<br> todos los derechos reservados.<br>
+        Cumbres de Maltrata 155 Int. 2 <br> Col. Narvarte. CDMX CP 03020<br>
+        Contacto:<br>
+        sergioval@gmail.com<br>
+        55-5555-5555</p>
+    </div>
+  </footer>
+</body>
+
 </html>
