@@ -10,9 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML 5, CSS 3, JavaScript ES6, GIT.
+- Frameworks: BootStrap 4.
+- Technologies used: VScode, GITHUB, Canva. 
 
 ## Live Demo
 
@@ -43,17 +43,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+The rights over this page are reserved for [@Cindy_Shin] (https://www.behance.net/adagio07)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Author**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sergiogval](https://github.com/sergiogval)
+- Instagram: [@sergioval](https://instagram.com/sergioval)
 
 ## 🤝 Contributing
 
