@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
+  font-style: normal;
   box-sizing: border-box;
 }
 
@@ -65,10 +66,6 @@ nav {
 }
 
 @media (max-width: 768px) {
-  body {
-    overflow: hidden;
-  }
-
   .ham {
     display: block;
     cursor: pointer;
