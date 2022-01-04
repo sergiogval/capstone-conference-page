@@ -65,6 +65,13 @@ nav {
   font-weight: 600;
 }
 
+.enlaces-menu li a:hover,
+.enlaces-menu li a:focus,
+.enlaces-menu li a:active {
+  color: var(--color-secondary);
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   .ham {
     display: block;
@@ -80,6 +87,7 @@ nav {
     align-items: flex-start;
     padding-top: 25px;
     padding-bottom: 25px;
+    position: absolute;
   }
 
   .logo {

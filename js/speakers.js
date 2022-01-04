@@ -19,8 +19,7 @@ const arr = [
   },
 ];
 
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i <= arr.length; i++) {
+for (let i = 0; i <= arr.length; i += 1) {
   const card = document.createElement('div');
   card.className = 'card';
   card.innerHTML = `<div id="speakers"><div class="card-content"><img src="${arr[i].image}"><h3>${arr[i].name}</h3><p>${arr[i].title}</p></div></div>`;

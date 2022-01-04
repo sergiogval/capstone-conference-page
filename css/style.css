@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('../fonts/Cocogoose/css2?family=Cocogoose:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
   --color-primary: #272626;
   --color-secondary: #ec5242;
   --color-tertiary: #d3d3d3;
+  --color-cards: #d3d3d324;
+  --header-font: 'Cocogoose', sans-serif;
+  --body-font: 'Lato', sans-serif;
 }
 
 * {
@@ -19,18 +24,22 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
-  font-family: 'cocogoose', normal;
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-primary);
   background-color: var(--color-tertiary);
   list-style: none;
-  height: 100%;
+  height: 80vh;
   width: 100%;
 }
 
+.topnav {
+  display: none;
+}
+
 header {
+  font-family: var(--header-font);
   background-color: var(--color-primary);
   list-style: none;
   text-decoration: none;
@@ -56,8 +65,116 @@ nav > ul > li {
   list-style: none;
 }
 
-a:hover,
-a:focus,
-a:active {
+.landPage {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 5%;
+  padding-left: 10%;
+  text-align: left;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Cocogoose', sans-serif;
   color: var(--color-secondary);
+  background-image: url('/images/mobile_intro_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-page1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.home-page2 {
+  font-size: 4em;
+  font-weight: 1000;
+}
+
+.card.home {
+  color: var(--color-primary);
+  width: 80vw;
+  border: solid 4px #fefefe;
+  border-radius: 10px;
+  background-color: rgba(247, 247, 247, 1);
+  font-size: 1.4em;
+  height: auto;
+  padding: 2% 3%;
+  margin-block: 2%;
+}
+
+h4.p-1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+h6 {
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+
+.program {
+  background-image: url('/images/program_bg.png');
+  outline: none;
+  border: none;
+  background-position: center;
+  width: 100vw;
+}
+
+.cardisplay {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  width: 90%;
+  overflow: hidden;
+}
+
+div.card {
+  background-color: var(--color-cards);
+  border: none;
+  width: 15vw;
+  height: 15vw;
+}
+
+@media (min-width: 769px) {
+  .landPage {
+    background-image: url('/images/main_big.png');
+  }
+
+  .topnav {
+    background-color: #333;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .topnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: var(--color-secondary);
+  }
+
+  .card.home {
+    width: 60vw;
+  }
+
+  .tumbnail {
+    display: flex;
+    width: 50px;
+    height: 3px;
+    margin: 5px auto 10px auto;
+    border: solid 1px var(--color-secondary);
+  }
 }
