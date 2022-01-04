@@ -268,12 +268,12 @@ div.card.m-2 {
 
   section.container {
     background-image: url('/images/about_bg.png');
-    background-size: content;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
-    background: #d3d3d3;
+    background-color: #d3d3d3;
     justify-content: center;
   }
 
@@ -281,3 +281,5 @@ div.card.m-2 {
     background-color: transparent;
     border: none;
     box-shadow: none;
+  }
+}
