@@ -19,6 +19,7 @@ body {
 
 .logo {
   display: block;
+  width: 10vw;
 }
 
 nav {
