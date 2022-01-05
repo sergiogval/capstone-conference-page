@@ -121,7 +121,7 @@ nav {
     background-color: #f5f5f5;
     z-index: 9;
     position: fixed;
-    text-justify: center;
+    text-justify: auto;
   }
 
   .enlaces-menu li a {
