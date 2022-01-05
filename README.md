@@ -1,54 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-  # Capstone Module 1: Hemp Industries Submmit 2021
+  #  Agro-Industry LATAM summit 2021
 
-> This is the final project regading the firt module of Microverse program. 
-> The main subjects that we intenselly worked on, were the three pilars of any 
-> website on mobile or desktop devices, wich are HTML,CSS & JavaScript. I have to confess that, 
-> even when I spare lots of hours reading the basics and some advanced features, It was 
-> one of the biggest intellectual challengues I've been trough in all my live. I will enhance
-> you to keep reading this document and find what I personally exprienced over the past 5 weeks
-> of intense learning, lots of sleep depravation, frustrations and satisfactions over this period 
-> of time. 
+This project is for a website/webapp that will be used to display the information of the "Agro-Industry LATAM summit 2021". Notice that the webinar *NOT* real. in order to do so, we used the template design that is provided by Cindy Shin. On this capstone we wont finish the all page but only the landing page and the about page. This will be done for both mobile and desktop screen sizes. Also we implement some features that are built with JavaScript vanilla flavor as well as BootStrap5 for styling the pages.
 
 ![screenshot](./app_screenshot.png)
-
-As I mentioned before, this is the final project of the module. We are applying all the skills we accordion-body adquired week over week on a variety of tasks and applied all of them in a project
-with the major challenge to make it all in just one week. Languages,Frameworks,Technologies, and 
-lots of so called professional or soft skills. It was awesome to work with people from all around
-the world.
 
 ## Built With
 
 - Major languages: HTML, CSS, JavaScript, GIT.
-- Frameworks: Bootstrap 5, TypScript, NPM.
-- Technologies used: GitHub, VScode, OpenAI, Linterns.
-
+- Frameworks: BootStrap5.
+- Technologies used: GitHub, VScode, Windows 10 & Kubuntu 21.04.
+- 
 ## Live Demo
 
-[Live Demo Link](https://sergiogval.github.io/hemp-conference/)
+[Live Demo Link](https://sergiogval.github.io/capstone-conference-page/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- A device that support running browser applications. It could be mobile or desktop.
+- The device must have internet connection.
+- It can be ran on the majority of devices.
+
 ### Setup
 
-### Install
+#### View pages from the browser
 
-### Usage
+- If you just want to check the webpage/webapp, you have it available on the live demo link.
 
-### Run tests
+#### Install locally the code of the application
 
-### Deployment
-
+Given the case that you want to play around with the code, you can clone the repository and run the following steps:
+- install the latest version of GIT. It will be useful to keep a version control of the code.
+- Install the latest version of VScode, VIM, Atom, Sublime or the equivalent for your OS.
+- Go to a local directory that will serve as parent root folder. You can do this on the console of any OS.
+- run the command: `git clone https://sergiogval.github.io/capstone-conference-page.git`
+- Now you have a local copy of the code.
 
 
 ## Author
