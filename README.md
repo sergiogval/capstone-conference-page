@@ -12,6 +12,11 @@ This project is for a website/webapp that will be used to display the informatio
 - Frameworks: BootStrap5.
 - Technologies used: GitHub, VScode, Windows 10 & Kubuntu 21.04.
 - 
+
+## Video  & Demo
+
+ [Live video link](https://drive.google.com/file/d/12yUgb8gO8_u7FoxoOkrfUpDHGOdHmFVE/view?usp=sharing)
+
 ## Live Demo
 
 [Live Demo Link](https://sergiogval.github.io/capstone-conference-page/)

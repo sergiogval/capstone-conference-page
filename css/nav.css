@@ -34,6 +34,7 @@ nav {
   min-height: 8vh;
   background-color: transparent;
   position: absolute;
+  margin-top: 1px;
 }
 
 .ham {

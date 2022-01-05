@@ -3,7 +3,7 @@ const arr = [
     id: 0,
     image: 'images/speaker1.png',
     name: 'Usaian Bolt',
-    title: 'Holder of various running world records',
+    title: 'Holder of various records',
     description: 'ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut',
   },
   {
@@ -17,7 +17,7 @@ const arr = [
     id: 2,
     image: 'images/speaker3.png',
     name: 'Ian Thorpe',
-    title: 'The Olympic swimmer with more Gold Medals in the history',
+    title: 'The swimmer with more Gold Medals.',
     description: 'ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut',
   },
   {
@@ -51,6 +51,7 @@ for (let i = 0; i <= arr.length; i += 1) {
   <img class="speakerImg" src="${arr[i].image}" alt="${arr[i].name}"  style="background-image: url('../images/chess.png');">  
   <div class="cardBody">
   <h4 class="speakerName">${arr[i].name}</h3>
+  <span class="tumbnail1"></span>
   <p class="speakerBio">${arr[i].title}</p>
   <p class="speakerDescription">${arr[i].description}</p>
   </div>
