@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
 👤 **Sergio Valadez**
 
@@ -59,9 +59,7 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/sgvldz)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Cindy Shin**
 
-- Original design idea
 
 ## 🤝 Contributing
 
@@ -75,9 +73,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+👤 **Cindy Shin**
+
+- Original design idea
 
 ## 📝 License
 
