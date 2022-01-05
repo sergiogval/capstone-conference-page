@@ -22,12 +22,18 @@ body {
   width: 10vw;
 }
 
+header {
+  position: relative;
+}
+
 nav {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   min-height: 8vh;
-  background-color: white;
+  background-color: transparent;
+  position: absolute;
 }
 
 .ham {
@@ -51,10 +57,11 @@ nav {
 .enlaces-menu {
   display: flex;
   padding: 0;
+  max-width: 100%;
 }
 
 .enlaces-menu li {
-  padding: 0 40px;
+  padding: 0 20px;
   list-style-type: none;
   transition: 0.3s;
 }
@@ -81,6 +88,7 @@ nav {
     top: 15px;
     left: 25px;
     transition: 0.2s 0.1s;
+    z-index: 9999;
   }
 
   nav {
@@ -88,7 +96,7 @@ nav {
     align-items: flex-start;
     padding-top: 25px;
     padding-bottom: 25px;
-    position: absolute;
+    position: fixed;
   }
 
   .logo {
