@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('../fonts/Cocogoose\ Pro-trial.ttf');
+
+:root {
+  --color-primary: #272626;
+  --color-secondary: #ec5242;
+  --color-tertiary: #d3d3d3;
+  --color-cards: #d3d3d324;
+  --header-font: 'Cocogoose';
+  --body-font: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.tumbnail1 {
+  display: flex;
+  width: 50px;
+  height: 3px;
+  margin: 5px auto 10px auto;
+  border: solid 2px var(--color-primary);
+}
+
+.tokio {
+  width: 80vw;
+  height: 80vw;
+  text-align: center;
+  background-image: url('../images/tokio.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ec5342cb;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dubai {
+  width: 80vw;
+  height: 80vw;
+  text-align: center;
+  background-image: url('../images/dubai.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ec5342d5;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-primary);
+  background-color: var(--color-tertiary);
+  list-style: none;
+  height: 80vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.topnav {
+  display: none;
+}
+
+header {
+  font-family: var(--header-font);
+  background-color: var(--color-primary);
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  width: 50%;
+}
+
+.row > ul {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  width: 50%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.landPage {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 5%;
+  padding-left: 8%;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Cocogoose', sans-serif;
+  color: var(--color-secondary);
+  background-image: url('../images/mobile_intro_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-page1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.home-page2 {
+  font-size: 4em;
+  font-weight: 1000;
+  margin-top: 60px;
+  color: var(--color-secondary);
+}
+
+.home-pageabout2 {
+  margin-top: 5%;
+  font-size: 3em;
+  font-weight: 1000;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-secondary);
+  background: transparent;
+}
+
+.card.home {
+  color: var(--color-primary);
+  width: 80vw;
+  border: solid 4px #fefefe;
+  border-radius: 10px;
+  background-color: rgba(247, 247, 247, 1);
+  font-size: 1.4em;
+  height: auto;
+  padding: 2% 3%;
+  margin-block: 2%;
+  z-index: -10;
+}
+
+h4.p-1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+h6 {
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+
+.program {
+  background-image: url('../images/program_bg.png');
+  outline: none;
+  border: none;
+  background-position: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10% 5%;
+  width: 90%;
+}
+
+div.card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-cards);
+  border: none;
+  flex: none;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.card-img-top {
+  width: 30%;
+  align-self: center;
+  padding: 5%;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: var(--color-secondary);
+  margin: 5%;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: var(--color-primary);
+  margin: 5%;
+}
+
+h3 {
+  display: none;
+}
+
+.btn1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  align-self: center;
+  width: 60%;
+  color: var(--color-tertiary);
+  background-color: var(--color-secondary);
+  justify-items: center;
+  border: none;
+  margin: 0 0 10% 0;
+  outline: none;
+  padding: 1.5em;
+}
+
+.cardAbout {
+  background: #fff;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 10%;
+}
+
+.homeAbout {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/about_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.peakers {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cardContent {
+  display: flex;
+}
+
+.speakerImg {
+  background-position: calc(top - 10px) calc(left - 10px);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  align-self: center;
+  padding: 3%;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 3%;
+  font-family: 'Lato', sans-serif;
+}
+
+.speakerName {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: var(--color-primary);
+  align-self: center;
+  margin-block: 2%;
+}
+
+.speakerBio {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+  color: var(--color-secondary);
+  align-self: start;
+  margin-block: 2%;
+}
+
+.partners {
+  font-size: 5em;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: var(--color-primary);
+  margin-block: 2%;
+}
+
+.logoSection {
+  border: solid 1px var(--color-tertiary);
+}
+
+@media (min-width: 769px) {
+  .landPage {
+    background-image: url('../images/main_big.png');
+    height: 120%;
+  }
+
+  .topnav {
+    background-color: #333;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .topnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: var(--color-secondary);
+  }
+
+  .card.home {
+    width: 60vw;
+  }
+
+  .tumbnail {
+    display: flex;
+    width: 50px;
+    height: 3px;
+    margin: 5px auto 10px auto;
+    border: solid 2px var(--color-secondary);
+  }
+
+  .btn1 {
+    display: none;
+  }
+
+  .card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10% 5%;
+    width: 90%;
+  }
+
+  div.card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50vw;
+    grid-column: auto;
+    width: 40vw;
+  }
+
+  #speakers.card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50vw;
+    grid-column: auto;
+    width: 40vw;
+    margin: 10%;
+  }
+
+  .card-img-top {
+    width: 50%;
+    align-self: center;
+    padding: 5%;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+  }
+
+  .card-text {
+    font-size: 0.8em;
+  }
+
+  a > h3 {
+    display: block;
+    text-decoration: none;
+    color: var(--color-tertiary);
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .programFooter a {
+    text-decoration: none;
+  }
+
+  .homeAbout {
+    display: flex;
+    margin-top: 8vh;
+  }
+
+  .cardAbout {
+    background: #fff;
+
+    /* width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 10%; */
+  }
+
+  #speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 3;
+    background-color: var(--color-tertiary);
+    outline: none;
+    border: solid 1px transparent;
+    margin: 0;
+    padding: 0;
+    left: 10%;
+  }
+
+  ul li .alert {
+    color: var(--color-secondary);
+    border: solid 2px var(--color-secondary);
+    margin: 5px;
+    flex-wrap: wrap;
+    font-size: 1em;
+  }
+
+  nav {
+    background: #fff;
+    margin-bottom: 1px;
+  }
+
+  .home-page1 {
+    margin-top: 10vh;
+  }
+
+  .tokio {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .dubai {
+    width: 40vw;
+    height: 40vw;
+  }
+}
