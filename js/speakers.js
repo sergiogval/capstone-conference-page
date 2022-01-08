@@ -43,19 +43,19 @@ const arr = [
   },
 ];
 
-for (let i = 0; i <= arr.length; i += 1) {
+arr.forEach((elem) => {
   const card = document.createElement('div');
   card.className = 'card';
   card.innerHTML = `
   <div class="cardContent">
-  <img class="speakerImg" src="${arr[i].image}" alt="${arr[i].name}"  style="background-image: url('../images/chess.png');">  
+  <img class="speakerImg" src="${elem.image}" alt="${elem.name}"  style="background-image: url('../images/chess.png');">  
   <div class="cardBody">
-  <h4 class="speakerName">${arr[i].name}</h3>
+  <h4 class="speakerName">${elem.name}</h3>
   <span class="tumbnail1"></span>
-  <p class="speakerBio">${arr[i].title}</p>
-  <p class="speakerDescription">${arr[i].description}</p>
+  <p class="speakerBio">${elem.title}</p>
+  <p class="speakerDescription">${elem.description}</p>
   </div>
   </div>
   </div>`;
   document.getElementById('speakers').appendChild(card);
-}
+});
