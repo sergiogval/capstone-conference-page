@@ -373,7 +373,7 @@
     "natural-compare": "^1.4.0",
     "negotiator": "^0.6.2",
     "netmask": "^2.0.2",
-    "node-fetch": "^2.6.6",
+    "node-fetch": "^2.6.7",
     "node-releases": "^2.0.1",
     "nopt": "^5.0.0",
     "normalize-package-data": "^3.0.3",
