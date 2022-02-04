@@ -369,7 +369,7 @@
     "ms": "^2.1.2",
     "mutationobserver-shim": "^0.3.7",
     "nan": "^2.15.0",
-    "nanoid": "^3.1.30",
+    "nanoid": "^3.1.31",
     "natural-compare": "^1.4.0",
     "negotiator": "^0.6.2",
     "netmask": "^2.0.2",
