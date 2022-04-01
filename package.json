@@ -355,7 +355,7 @@
     "mimic-response": "^1.0.1",
     "min-indent": "^1.0.1",
     "minimatch": "^3.0.4",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "minimist-options": "^4.1.0",
     "minipass": "^3.1.6",
     "minipass-collect": "^1.0.2",
