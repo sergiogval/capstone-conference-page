@@ -217,7 +217,7 @@
     "globby": "^11.0.4",
     "globjoin": "^0.1.4",
     "gonzales-pe": "^4.3.0",
-    "got": "^11.8.3",
+    "got": "^11.8.5",
     "graceful-fs": "^4.2.8",
     "har-schema": "^2.0.0",
     "har-validator": "^5.1.5",
