@@ -144,7 +144,7 @@
     "duplexer3": "^0.1.4",
     "ecc-jsbn": "^0.1.2",
     "ejs": "^3.1.7",
-    "electron-to-chromium": "^1.4.31",
+    "electron-to-chromium": "^1.4.377",
     "emoji-regex": "^8.0.0",
     "encoding": "^0.1.13",
     "end-of-stream": "^1.4.4",
