@@ -483,7 +483,7 @@
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
     "saxes": "^5.0.1",
-    "semver": "^7.3.5",
+    "semver": "^7.5.2",
     "semver-diff": "^3.1.1",
     "set-blocking": "^2.0.0",
     "setimmediate": "^1.0.5",
