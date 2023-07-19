@@ -585,7 +585,7 @@
     "which-boxed-primitive": "^1.0.2",
     "wide-align": "^1.1.5",
     "widest-line": "^3.1.0",
-    "word-wrap": "^1.2.3",
+    "word-wrap": "^1.2.4",
     "wrap-ansi": "^7.0.0",
     "wrappy": "^1.0.2",
     "write-file-atomic": "^3.0.3",
