@@ -498,7 +498,7 @@
     "slash": "^3.0.0",
     "slice-ansi": "^4.0.0",
     "smart-buffer": "^4.2.0",
-    "socks": "^2.6.1",
+    "socks": "^2.7.2",
     "socks-proxy-agent": "^6.1.1",
     "source-map": "^0.6.1",
     "source-map-js": "^1.0.1",
