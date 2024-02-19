@@ -255,7 +255,7 @@
     "ini": "^2.0.0",
     "internal-slot": "^1.0.3",
     "invert-kv": "^3.0.1",
-    "ip": "^1.1.5",
+    "ip": "^1.1.9",
     "is-alphabetical": "^1.0.4",
     "is-alphanumerical": "^1.0.4",
     "is-arrayish": "^0.3.2",
