@@ -214,7 +214,7 @@
     "global-modules": "^2.0.0",
     "global-prefix": "^3.0.0",
     "globals": "^11.12.0",
-    "globby": "^11.0.4",
+    "globby": "^14.1.0",
     "globjoin": "^0.1.4",
     "gonzales-pe": "^4.3.0",
     "got": "^11.8.3",
